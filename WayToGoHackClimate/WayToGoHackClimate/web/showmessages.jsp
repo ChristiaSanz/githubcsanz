@@ -19,7 +19,7 @@
 	<%
 		XMLDecoder decoder = new XMLDecoder(
             new BufferedInputStream(
-                new FileInputStream("C:\\messaging\\messages.xml")));
+                new FileInputStream("D:\\messaging\\messages.xml")));
 		ArrayList<MessageBean> messageList = (ArrayList<MessageBean>) decoder.readObject();
 		decoder.close();
 		

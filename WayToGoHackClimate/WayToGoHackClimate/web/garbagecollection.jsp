@@ -5,35 +5,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>WAY TO GO</title>
+<style>
+* {
+padding: 0;
+margin: 0;
+font-family: Century Gothic;
+}
+</style>
 </head>
-<body>
 <%@ include file ="designs/header.html" %>
-<h1>GARBAGE COLLECTION</h1>
-<%-- <table>
-	<tr>
-		<td id="menu"><a href="garbagecollection.jsp" style="text-decoration:none"/>SCHEDULE OF GARBAGE COLLECTION</td>
-	</tr>
-</table> --%>
-<h2>SCHEDULE</h2>
-	<ul>MONDAY:
-		<li>8:00AM - 9:00AM</li>
-	</ul>
-	<ul>TUESDAY:
-		<li>8:00AM - 9:00AM</li>
-	</ul>
-	<ul>WEDNESDAY:
-		<li>8:00AM - 9:00AM</li>
-	</ul>
-	<ul>THURSDAY:
-		<li>8:00AM - 9:00AM</li>
-	</ul>
-	<ul>FRIDAY:
-		<li>8:00AM - 9:00AM</li>
-	</ul>
-	<ul>SUNDAY:
-		<li>8:00AM - 9:00AM</li>
-	</ul>	
+<body>
+<Center>
+<br><Br><Br><br>
 
+
+<h2>Schedule of Garbage Collection</h2>
+<p> The schedule is dependable to the availability and priority of trashes in the area. </p>
+<img src="images/tbs.png">
+</Center>
 </body>
 <%@ include file ="designs/footer.html" %>
 </html>
